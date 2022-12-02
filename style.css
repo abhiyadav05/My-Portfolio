@@ -269,7 +269,7 @@ color: whitesmoke;
     position: fixed;
 }
 
-@media (max-width: 422px) {
+@media (max-width: 436px) {
     .mypic img{
         width: 20vh;
     }
@@ -283,6 +283,20 @@ color: whitesmoke;
 
     .about {
         font-size: 17px;
+    }
+     .footer {
+        height: 26vh;
+
+    }
+    .linkedin-logo {
+        padding-right: 8px;
+    }
+
+    .insta-logo {
+        padding-right: 7px;
+    }
+    .icon{
+        margin-top: 7px;
     }
 }
 @media (max-width: 358px) {
