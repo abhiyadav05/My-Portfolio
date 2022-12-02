@@ -306,7 +306,7 @@ color: whitesmoke;
 }
 
 
-@media (max-height: 670px) {
+@media (max-height: 600px) {
     .footer-content{
        justify-content: flex-start;
     }
