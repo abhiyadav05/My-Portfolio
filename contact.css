@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.contact-container{
+    margin: 120px 104px;
+}
+
+.input-1{
+    width: 380px;
+    margin: 23px;
+    border-radius: 12px;
+    height: 35px;
+  
+}
+
+.submit{
+    height: 42px;
+width: 110px;
+margin: 21px 50px;
+border-radius: 13px;
+background-color: black;
+color: whitesmoke;
+}
+
+.submit:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.contact-container span{
+    font-weight: bolder;
+font-size: 25px;
+}
+
+
+@media (max-width: 660px)
+{
+    .contact-container {
+        margin: 86px 42px;
+      }
+      .input-1{
+        width: 260px;
+        margin: 16px;
+        height: 25px;
+      
+    }
+    .contact-container span{
+       
+    font-size: 18px;
+    }
+
+}
+
+@media (max-width: 350px){
+    .input-1{
+        width: 210px;
+        margin: 12px;
+        height: 21px;
+      
+    }
+}
